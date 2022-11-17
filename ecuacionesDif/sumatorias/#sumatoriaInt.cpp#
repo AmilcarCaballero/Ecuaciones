@@ -1,0 +1,66 @@
+
+
+*
+*
+*
+**/
+
+#include <iostream>
+#include <math.h>
+
+using namespace std;
+
+#define f(x) 16-(pow(x,2))
+
+
+int main(){
+        printf("Calcular la f(x)=16-x^2 en el intervalo [0,3]");
+        printf("\n\nEl area es: %f", sum);
+  return 0;
+}
+
+
+/**
+*
+*
+*
+
+//funcion de riemann 
+
+/**
+*
+*
+*
+*
+**/
+
+#include <iostream>
+#include <math.h>
+
+using namespace std;
+
+#define f(x) 16-(pow(x,2))
+
+
+int main(){
+	printf("Calcular la f(x)=16-x^2 en el intervalo [0,3]");
+	printf("\n\nEl area es: %f", sum);
+  return 0;
+}
+
+
+/**
+*
+*
+*
+*
+**/
+
+float riemann( float inicio, float fin){
+	float sum = 0, n = 1000;
+	float ancho = (fin - inicio)/n;
+
+	for( 
+  return sum;
+}
+
